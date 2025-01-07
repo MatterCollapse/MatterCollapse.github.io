@@ -1,0 +1,85 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/chunks/app/_not-found/page-e0a5a30e6232ef34.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/css/ccaac2de5b74c2bb.css",
+      "static/chunks/app/layout-0a2e19c6db34d48f.js"
+    ],
+    "/experiments/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/chunks/648-2cc820d5bc257245.js",
+      "static/chunks/app/experiments/page-ca6de9534e8460cb.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/chunks/app/about/page-080c094e378dc4b1.js"
+    ],
+    "/experiments/chatAvatar/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/chunks/b536a0f1-8b4ff789f1ca279f.js",
+      "static/chunks/16-745ea6c005316bd9.js",
+      "static/chunks/403-efb42e4777ac3da1.js",
+      "static/chunks/app/experiments/chatAvatar/page-e784b7ff3820b069.js"
+    ],
+    "/experiments/wandNamer/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/chunks/app/experiments/wandNamer/page-7328964c7d154834.js"
+    ],
+    "/experiments/textGame/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/css/2e217b198695519f.css",
+      "static/chunks/app/experiments/textGame/page-f0e79f2c150e025c.js"
+    ],
+    "/experiments/wilderMagic/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/chunks/app/experiments/wilderMagic/page-64dbe5c767bf18e8.js"
+    ],
+    "/gallery/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/chunks/648-2cc820d5bc257245.js",
+      "static/chunks/app/gallery/page-6275449d313360be.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-44fd7cab8c8ade09.js",
+      "static/chunks/fd9d1056-e515c0a6ab910d0d.js",
+      "static/chunks/23-c8fda6ddb919d643.js",
+      "static/chunks/main-app-41c2d617e79e201a.js",
+      "static/css/52f44d6bad6353a0.css",
+      "static/chunks/b536a0f1-8b4ff789f1ca279f.js",
+      "static/chunks/16-745ea6c005316bd9.js",
+      "static/chunks/700-23266df5594ccedc.js",
+      "static/chunks/app/page-125cc8a38749aafe.js"
+    ]
+  }
+}

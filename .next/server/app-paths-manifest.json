@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/experiments/page": "app/experiments/page.js",
+  "/about/page": "app/about/page.js",
+  "/experiments/chatAvatar/page": "app/experiments/chatAvatar/page.js",
+  "/experiments/wandNamer/page": "app/experiments/wandNamer/page.js",
+  "/experiments/textGame/page": "app/experiments/textGame/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/experiments/wilderMagic/page": "app/experiments/wilderMagic/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/page": "app/page.js"
+}
