@@ -1,0 +1,72 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+	"name": "Node.js & TypeScript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+
+	// Explicitly declaring which source-code folder to mount and where to mount it in the container
+	// "workspaceFolder": "/workspaces",
+
+	"features": {
+		// Installs a set of common command line utilities, Oh My Zsh!, and sets up a non-root user.
+        "ghcr.io/devcontainers/features/common-utils:2.4.4": {
+            "installZsh": true,
+            "configureZshAsDefaultShell": true,
+            "installOhMyZsh": true,
+            "installOhMyZshConfig": true,
+            "upgradePackages": true,
+            "username": "node"
+        }
+	},
+
+	"customizations": {
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": { 
+			},
+
+			"extensions": [
+				// Git extensions
+				"github.vscode-pull-request-github", // GitHub integration
+                "donjayamanne.githistory", // Git History
+                "mhutchie.git-graph", // Git History Graph
+
+				// Frontend development
+				"loiane.ts-extension-pack", // TypeScript Extension Pack
+                "pmneo.tsimporter", // TypeScript Importer
+                "dbaeumer.vscode-eslint", // ESLint
+                "esbenp.prettier-vscode", // Prettier
+                "rvest.vs-code-prettier-eslint", // ESLint + Prettier
+                "infeng.vscode-react-typescript", // Typescript React code snippets
+                "formulahendry.auto-close-tag", // Auto Close Tag
+                "formulahendry.auto-rename-tag", // Auto Rename Tag
+                "streetsidesoftware.code-spell-checker", // Code Spell Checker
+                "DennisVash.create-react-vscode", // Create-React-VSCode IDE
+                "wix.vscode-import-cost",
+                "bradlc.vscode-tailwindcss"
+			]
+		}
+	},
+
+	"postStartCommand": "npm install",
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// This can be used to network with other containers or with the host.
+    "portsAttributes": {
+		"3000": {
+            "label": "UI dev server"
+        }
+    },
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		3000
+	],
+
+	"mounts": [
+		"source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" // Binding the host docker socket to the container
+	]
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+}

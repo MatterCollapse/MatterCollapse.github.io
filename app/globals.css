@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+.deco-dark {
+  color: white;
+  background: rgb(27, 39, 53);
+  background: radial-gradient(circle, rgba(27, 39, 53,1) 0%, rgb(9, 12, 20) 100%);
+}
+
+.frame-deco-dark {
+  border: 50px solid transparent;
+  border-image: url(../public/Textures/frame.png) round;
+  border-image-slice: 30%;
+}
+
+.border-deco-dark {
+  border-color: rgb(230, 168, 11);
+  border-width: 2px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.h1-deco-dark {
+  justify-content: center;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(rgb(230, 168, 11), rgb(150, 72, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h2-deco-dark {
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(rgb(230, 168, 11), rgb(150, 72, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-deco-dark-grow {
+  background: rgb(199,199,199) linear-gradient(180deg, rgba(27, 39, 53,1) 0%, rgb(9, 12, 20) 100%);
+  margin: 5px;
+  padding: 4px;
+  border: 2px solid rgb(230, 168, 11);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-deco-dark-grow:hover {
+  transform: scale(1.1);
+}
+
+.image-rounded {
+  border: 2px solid rgb(230, 168, 11);
+  border-radius: 6px;
+}
+
+
+
+
+
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: multiple-box-shadow(700);
+  animation: animStar 50s linear infinite;
+    
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: multiple-box-shadow(700);
+  }
+    
+}
+
+
+
+
+
+.retro {
+  color: green;
+  background: rgb(0, 32, 0) radial-gradient(circle, rgba(0, 32, 0,1) 0%, rgba(0,0,0,1) 100%);
+  text-shadow: 1px 1px 15px rgb(0, 182, 0), 1px 1px 5px rgb(0, 182, 0);
+}
+
+.button-retro {
+  color: black;
+  background: rgb(0, 182, 0);
+  box-shadow: 0px 0px 15px 1px rgb(0, 182, 0);
+}
+
+.button-retro:hover {
+  transform: scale(1.02);
+}
+
+.button-retro:active {
+  background: rgb(0, 160, 0);
+}
+
+.text-retro {
+  color: green;
+  text-shadow: 1px 1px 15px rgb(0, 182, 0), 1px 1px 5px rgb(0, 182, 0);
+}
